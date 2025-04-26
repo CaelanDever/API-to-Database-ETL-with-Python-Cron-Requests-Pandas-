@@ -79,12 +79,15 @@ Automate it with a scheduled cron job.
 🖼️ Screenshot Gallery
 -
 📌 Screenshot Placeholder: Successful script output in terminal
+
 <img width="379" alt="bitcoin" src="https://github.com/user-attachments/assets/bb6f44c9-0f19-489a-8e87-88445cbff40e" />
 
 📌 Screenshot Placeholder: Cron job entry in crontab -l
+
 <img width="452" alt="cron" src="https://github.com/user-attachments/assets/a75947c4-f489-43ad-a6d3-e2101ccd567d" />
 
 📌 Screenshot Placeholder: Query result in PostgreSQL CLI showing inserted data
+
 <img width="449" alt="sql" src="https://github.com/user-attachments/assets/ddea1fdc-dc7b-426f-a204-4398d6eb8590" />
 
 🧱 Detailed Project Sections
@@ -167,6 +170,7 @@ except Exception as e:
     print(f"An error occurred: {e}")
 
 📌 Screenshot Placeholder: Script terminal output and sample database row
+
 <img width="379" alt="bitcoin" src="https://github.com/user-attachments/assets/c749b772-b779-48e7-b704-7469ce600370" />
 
 3. Testing
@@ -180,6 +184,7 @@ Verify data:
 sudo -u postgres psql -d api_data_db -c "SELECT * FROM bitcoin_price;"
 
 📌 Screenshot Placeholder: Database query showing inserted row
+
 <img width="449" alt="sql" src="https://github.com/user-attachments/assets/cb17893d-7d1d-42bc-a0ea-1db7940ff6fc" />
 
 4. Cron Setup
@@ -193,6 +198,7 @@ Add entry:
 0 * * * * /usr/bin/python3 /home/youruser/fetch_bitcoin_price.py >> /home/youruser/fetch_bitcoin_price.log 2>&1
 
 📌 Screenshot Placeholder: Crontab entry confirmation
+
 <img width="452" alt="cron" src="https://github.com/user-attachments/assets/ab1c35f6-0d84-47c9-a0e1-e5093967dc10" />
 
 5. Monitoring
@@ -202,6 +208,7 @@ Monitor log file if created:
 tail -f /home/youruser/fetch_bitcoin_price.log
 
 📌 Screenshot Placeholder: Error log sample (if any)
+
 <img width="451" alt="logz" src="https://github.com/user-attachments/assets/a7df6546-7ad0-488a-aa82-50531237b8a3" />
 
 🧠 Challenges & Solutions
