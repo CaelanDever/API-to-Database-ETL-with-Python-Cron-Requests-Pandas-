@@ -118,6 +118,7 @@ Grant privileges:
 GRANT ALL PRIVILEGES ON DATABASE api_data_db TO api_user;
 
 📌 Screenshot Placeholder: Database and user creation steps
+
 <img width="420" alt="dbe" src="https://github.com/user-attachments/assets/f94b6e5c-3157-4e37-aa49-bde2571c9b2b" />
 
 2. Python ETL Script
