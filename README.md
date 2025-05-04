@@ -26,12 +26,13 @@ This project forms a foundational step in data pipeline development. It’s a ke
 
 🧱 Project Structure
 -
+```
 api_to_db_etl/
 ├── fetch_bitcoin_price.py     # Python script that performs the ETL
 ├── README.md                  # Project documentation
 ├── requirements.txt           # Python dependencies
 ├── setup_instructions.md      # Setup and cron configuration steps
-
+```
 📐 Format Requirements
 -
 Use Python 3
@@ -122,7 +123,7 @@ GRANT ALL PRIVILEGES ON DATABASE api_data_db TO api_user;
 <img width="420" alt="dbe" src="https://github.com/user-attachments/assets/f94b6e5c-3157-4e37-aa49-bde2571c9b2b" />
 
 2. Python ETL Script
-
+```
 import requests
 import pandas as pd
 import psycopg2
@@ -169,7 +170,7 @@ try:
 
 except Exception as e:
     print(f"An error occurred: {e}")
-
+```
 📌 Screenshot Placeholder: Script terminal output and sample database row
 
 <img width="379" alt="bitcoin" src="https://github.com/user-attachments/assets/c749b772-b779-48e7-b704-7469ce600370" />
@@ -273,4 +274,3 @@ PostgreSQL Manual
 
 Crontab Guru – for cron expression help
 
-💡 Tip: Keep this project in a GitHub repo to showcase your skills to employers. Include this README.md and sample logs/data files to demonstrate your understanding of ETL, automation, and Linux scripting.
